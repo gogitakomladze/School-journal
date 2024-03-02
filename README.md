@@ -3,5 +3,5 @@
 ## Technologies Used
 
  **SASS** - for design
- **AXIOS** - for requests
+ **styled css** - for design
  **React Context** - for context
