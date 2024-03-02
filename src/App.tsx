@@ -1,14 +1,14 @@
-import { Home } from "./view/Home";
-import { MainLayout } from "./layouts/MainLayout";
-import { Routes ,Route } from "react-router-dom"; 
+import { Header } from "./features/Header";
+import { GradeList } from "./features/GradeList";
+
 function App() {
   return (
-    <Routes>
-      <Route element={<MainLayout/>}>
-      <Route path="/" element={<Home/>}></Route>
-      </Route>
-    </Routes>
+    <div>
+      <Header />
+      <GradeList />
+    </div>
   );
 }
 
 export default App;
+
