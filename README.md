@@ -1,7 +1,3 @@
 
 
-## Technologies Used
-
- **SASS** - for design
- **styled css** - for design
- **React Context** - for context
+## This is a simple example of a school journal
